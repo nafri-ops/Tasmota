@@ -87,7 +87,8 @@ Examples :
 // !!! Remember that your changes GOES AT THE BOTTOM OF THIS FILE right before the last #endif !!!
 */
 
-
+#undef DS18X20_MAX_SENSORS
+   #define DS18X20_MAX_SENSORS 16
 
 
 
